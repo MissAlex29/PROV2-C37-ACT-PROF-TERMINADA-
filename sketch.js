@@ -3,8 +3,11 @@ var canvas;
 var backgroundImage;
 var bgImg;
 var database;
+var gameState;
 var form, player;
 var playerCount;
+var allPlayers, car1, car2;
+var cars = [];
 
 
 function preload() {
